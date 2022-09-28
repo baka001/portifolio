@@ -1,0 +1,85 @@
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.cabecalho {
+    border: 1px solid black;
+    background-image: url(img/backca.jpg);
+}
+
+.opcao {
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    margin: 0 0 10px 0;
+}
+
+.des-sobremim {
+    color: white;
+    background-color: black;
+    border-radius: 20px 5px;
+
+}
+
+.des-habilidade {
+    color: white;
+    background-color: black;
+    border-radius: 20px 5px;
+
+}
+
+.des-formacao {
+    color: white;
+    background-color: black;
+    border-radius: 20px 5px;
+
+}
+
+.des-experiencia {
+    color: white;
+    background-color: black;
+    border-radius: 20px 5px;
+
+}
+
+.redesociais {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+
+.opcao .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-image: url(img/img/menu.jpg);
+}
+
+.opcao .button:hover {
+    background-color: #1d1d1d;
+    border-radius: 5px;
+}
